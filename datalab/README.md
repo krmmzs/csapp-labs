@@ -1,7 +1,5 @@
 # datalab
 
-## Overview
-
 ## Prerequisites
 
 [lab code](http://csapp.cs.cmu.edu/3e/labs.html)
@@ -598,3 +596,25 @@ if x == -125, E = -125, E = exp - 127, exp = 2
 if x == 127, E = 127, E = exp - 127, exp = 254
 
 -126 <= x <= 127, exp = x + 127, return exp << 23
+
+```c
+unsigned floatPower2(int x) {
+    int exp;
+    unsigned res;
+
+    if (x < -149) {
+        return 0;
+    }
+
+    if (x > 127) {
+        return (0xFF << 23);
+    }
+
+    if (x < -126) {
+        return 0x1 << (x + 149);
+    }
+
+    exp = x + 127;
+    res = exp << 23;
+    return res;
+}```
