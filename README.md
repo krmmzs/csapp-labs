@@ -5,16 +5,16 @@ This is my csapp lab repository, labs from [Lab Assignments](http://csapp.cs.cmu
 ## Overview
 
 - [x] [Data Lab](./datalab)
-- [] [Bomb Lab](./bomblab)
-- [] [Attack Lab](./attacklab)
-- [] [Buffer Lab](./bufferlab)
-- [] [Architecture Lab](./archlab)
-- [] [Architecture Lab (Y86)](./archlab86)
-- [] [Cache Lab](./cachelab)
-- [] [Performance Lab](./perflab)
-- [] [Shell Lab](./shlab)
-- [] [Malloc Lab](./malloclab)
-- [] [Proxy Lab](./proxylab)
+- [ ] [Bomb Lab](./bomblab)
+- [ ] [Attack Lab](./attacklab)
+- [ ] [Buffer Lab](./bufferlab)
+- [ ] [Architecture Lab](./archlab)
+- [ ] [Architecture Lab (Y86)](./archlab86)
+- [ ] [Cache Lab](./cachelab)
+- [ ] [Performance Lab](./perflab)
+- [ ] [Shell Lab](./shlab)
+- [ ] [Malloc Lab](./malloclab)
+- [ ] [Proxy Lab](./proxylab)
 
 ## Data Lab
 
