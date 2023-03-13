@@ -71,9 +71,9 @@ sudo apt-get install gcc-multilib
 
 但是本题是不能使用|的, 用De Morgan's Law进行转化即可
 
-<img src="/images/csapp-datalab-01.png" alt="csapp-datalab-01.png" style="zoom:70%;" />
+<img src="/images/csapp-datalab-01.png" alt="csapp-datalab-01.png" style="zoom:50%;" />
 
-<img src="/images/csapp-datalab-02.png" alt="csapp-datalab-02.png" style="zoom:70%;" />
+<img src="/images/csapp-datalab-02.png" alt="csapp-datalab-02.png" style="zoom:50%;" />
 
 ```c
 int bitXor(int x, int y) {
